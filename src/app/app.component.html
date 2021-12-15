@@ -1,0 +1,11 @@
+<div class="appp">
+    <header [textContent]="title"></header>
+<p>Bolglist - App component</p>
+
+</div>
+<app-subtopics></app-subtopics>
+
+<app-child [hero]= "users" (parent)= "parent($event)"></app-child>
+<h1>Passing data from child to parent</h1>
+<h4>{{input.name}}</h4>
+<h4>{{input.first}}</h4>

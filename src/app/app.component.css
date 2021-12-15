@@ -1,0 +1,19 @@
+.appp{
+    background-color: rgb(43, 255, 0);
+    padding-bottom: 1%;
+}
+header{
+    padding-top: 1%;
+    color: crimson;
+    font-size: larger;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+p{
+    text-align: center;
+    padding-top: 1%;
+    font-size: larger;
+    font-weight: bold;
+    color: rgb(62, 47, 124);
+}
