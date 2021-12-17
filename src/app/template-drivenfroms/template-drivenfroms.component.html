@@ -1,0 +1,18 @@
+<p>template-drivenfroms works!</p>
+
+<div class="col-sm-3">
+    <form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" required class="form-control" id="exampleInputEmail1" [ngModel]="collect.nam" name="emailuser" #emailuser="ngModel" >
+          
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input type="password" required minlength="5" class="form-control" id="exampleInputPassword1" ngModel name="iduser" #iduser="ngModel">
+          <span *ngIf= "iduser.value <99999 && iduser.touched">Weak password</span>
+        </div>
+        
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+</div>
